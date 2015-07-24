@@ -54,7 +54,7 @@ fs.readFile('polldata.json', function (err, data) {
         logger.warn('Error reading polldata.json. If this is the first run, this is expected behavior: '+err);
     } else {
         logger.debug("Found previous trade offer poll data.  Importing it to keep things running smoothly.");
-        offers.pollData = data;
+        offers.pollData = JSON.parse(data);
     }
 });
 
