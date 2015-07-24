@@ -194,7 +194,7 @@ client.friends.on('friendMsg', function (steamID, message, type) {
     }
 });
 
-// If you wanted to use regular trading, you can use: client.trading.on('tradeProposed', function(tradeID, steamID){...});
+// If you wanted to use regular trading, you can respond to requests via: client.trading.on('tradeProposed', function(tradeID, steamID){...});
 // Docs here: https://github.com/seishun/node-steam/tree/master/lib/handlers/trading
 // But we're not going to do that!
 
