@@ -1,0 +1,18 @@
+{
+    "name": "node-steam-trade-tutorial",
+    "version": "2.0.0",
+    "author": "Jake 'rannmann' Forrester",
+    "url": "https://github.com/rannmann/node-steam-trade-tutorial/issues",
+    "description": "from the article: [Creating a Steam Trade Bot with Node.js](https://firepowered.org/developer/creating-a-steam-trade-bot-with-node-js/)",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rannmann/node-steam-trade-tutorial.git"
+    },
+    "dependencies": {
+        "winston": "1.0.x",
+        "steam-tradeoffer-manager": "1.2.x",
+        "steam-user": "~1.2.0"
+
+    },
+    "engine": "node >= 0.12.2"
+}
