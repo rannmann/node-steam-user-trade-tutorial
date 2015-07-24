@@ -256,7 +256,7 @@ offers.on('sentOfferChanged', function (offer, oldState) {
 
 // Steam is down or the API is having issues
 offers.on('pollFailure', function (err) {
-    log.error("Error polling for trade offers: "+err);
+    logger.error("Error polling for trade offers: "+err);
 });
 
 // When we receive new trade offer data, save it so we can use it after a crash/quit
