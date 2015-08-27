@@ -11,7 +11,7 @@
     "dependencies": {
         "winston": "1.0.x",
         "steam-tradeoffer-manager": "1.2.x",
-        "steam-user": "~1.2.0"
+        "steam-user": "1.x"
 
     },
     "engine": "node >= 0.12.2"
